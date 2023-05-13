@@ -5,6 +5,8 @@ import Card from "./components/Card/Card";
 import Form from "./components/Form";
 import './App.css';
 import { useState } from 'react';
+import ChatWrapper from "./components/ChatWrapper/ChatWrapper";
+
 
 
 
@@ -90,6 +92,7 @@ function App() {
             </div>
           </TextSizeContext.Provider>
         </div>
+        <ChatWrapper/>
       </body>
     </div>
   );
